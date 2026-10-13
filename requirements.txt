@@ -1,0 +1,9 @@
+asabot==0.1.5
+aiohttp>=3.12,<4
+python-dotenv>=1.0,<2
+psutil>=5.9,<8
+
+# 可选：只有开启生图（ai.toml 的 image_enabled = true）才需要。
+# 用来把参考照片缩到长边 1536 再上传：3 张 4MB 的 PNG 直接发是 16.6MB 请求体，
+# 缩完约 0.8MB。没装也能跑，只是会原图上传（慢，且可能撞服务端上限）。
+Pillow>=10,<13

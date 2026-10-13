@@ -1,0 +1,55 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+/.tmp/
+/tmp_rw/
+.venv/
+venv/
+env/
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+*.pid
+*.sqlite*
+*.db
+
+# 本机账号、白名单和安装路径；仓库只保留可复制的示例配置。
+/ai.toml
+/knowledge.toml
+/launcher_settings.json
+
+# 助手记忆、诊断记录与编辑器本地状态。
+/.workbuddy-ai/
+/.codex/
+/.agents/
+/.idea/
+/.vscode/
+/PROJECT_STATE.md
+/IMAGE_DIAGNOSTICS.md
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 凭据、登录二维码和备份。
+*.pem
+*.key
+*.pfx
+*.p12
+qrcode*.png
+*.bak
+*.backup
+*.zip
+*.7z
+*.rar
+
+# 参考照片是个人隐私，绝不进版本库（但保留说明文件，否则目录会被删掉）
+character_refs/*
+!character_refs/README.md
+# 生成出来的图片，不用提交
+generated/

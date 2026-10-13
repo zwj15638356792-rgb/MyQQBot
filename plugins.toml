@@ -1,0 +1,6 @@
+[plugins]
+[plugins."bot.echo"]
+enabled = false
+
+[plugins."bot.ai"]
+enabled = true
